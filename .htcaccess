@@ -1,0 +1,10 @@
+# Habilitar mod_rewrite
+RewriteEngine On
+
+# Permitir archivos existentes (css, js, imágenes, etc.)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Todas las demás rutas se redirigen a index.html (para React Router)
+RewriteRule ^ index.html [QSA,L]
