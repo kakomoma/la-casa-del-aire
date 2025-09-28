@@ -1,0 +1,26 @@
+{
+  "index": {
+    "meta": {
+      "title": "Accueil - La Casa del Aire",
+      "description": "Bienvenue à La Casa del Aire, un espace rural unique pour profiter du calme et de la nature."
+    },
+    "title": "Accueil",
+    "description": "Bienvenue sur notre site."
+  },
+  "casa": {
+    "meta": {
+      "title": "La Maison - La Casa del Aire",
+      "description": "Découvrez La Casa del Aire : de grands espaces, un design minimaliste et tout le confort pour votre séjour."
+    },
+    "title": "La Maison",
+    "description": "De grands espaces et un design minimaliste pour un séjour parfait."
+  },
+  "entorno": {
+    "meta": {
+      "title": "Les Environs - La Casa del Aire",
+      "description": "Découvrez les environs naturels de La Casa del Aire : prairies, sentiers et paysages uniques pour se déconnecter."
+    },
+    "title": "Les Environs",
+    "description": "Explorez la nature qui entoure notre maison."
+  }
+}
