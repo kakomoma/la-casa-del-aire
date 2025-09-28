@@ -32,7 +32,7 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
           local_path: "./dist/*" # Vite usa "dist"
-          remote_path: "/htdocs" # ajusta si tu docroot es otro
+          remote_path: "/dev" # ajusta si tu docroot es otro
           sftp_only: true
 
       - name: Upload .htaccess
@@ -43,5 +43,5 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
           local_path: "./.htaccess"
-          remote_path: "/htdocs/.htaccess"
+          remote_path: "/dev/.htaccess"
           sftp_only: true
