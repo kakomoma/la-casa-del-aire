@@ -7,12 +7,17 @@
     <!-- Título genérico (se sobreescribe con React Helmet) -->
     <title>La Casa del Aire</title>
 
-    <!-- Favicon -->
+    <!-- Favicon clásico en raíz (fallback para navegadores/Google) -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/icons/favicon.svg" />
-    <link rel="apple-touch-icon" href="/src/assets/icons/apple-touch-icon.svg" />
 
-    <!-- Color de tema en móviles -->
+    <!-- Favicons generados por Vite con hash (cache busting) -->
+    <link
+      rel="apple-touch-icon"
+      href="/assets/apple-touch-icon-U3GTHLzp.svg"
+      sizes="180x180"
+    />
+
+    <!-- Opcional: colores para móviles -->
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
@@ -20,5 +25,3 @@
     <!-- React inyecta aquí la aplicación -->
   </body>
 </html>
-
-
