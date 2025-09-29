@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { ReactComponent as FacebookIcon } from "../assets/icons/Facebook.svg";
-import { ReactComponent as InstagramIcon } from "../assets/icons/Instagram.svg";
-import { ReactComponent as WhatsappIcon } from "../assets/icons/Whatsapp.svg";
-import { ReactComponent as EmailIcon } from "../assets/icons/Email.svg";
+import FacebookIcon from "../assets/icons/Facebook.svg?react";
+import InstagramIcon from "../assets/icons/Instagram.svg?react";
+import WhatsappIcon from "../assets/icons/Whatsapp.svg?react";
+import EmailIcon from "../assets/icons/Email.svg?react";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -29,7 +29,7 @@ export default function Footer() {
             <WhatsappIcon className="icon" />
           </a>
           <a href="mailto:correo@casadelaire.es">
-            <MailIcon className="icon" />
+            <EmailIcon className="icon" />
           </a>
         </div>
       </div>
