@@ -2,15 +2,18 @@
   "index": {
     "meta": {
       "title": "Home - La Casa del Aire",
-      "description": "Welcome to La Casa del Aire, a unique rural space to enjoy peace and the natural environment."
+      "description": "Welcome to La Casa del Aire, a unique rural space where you can enjoy tranquility and the natural environment."
     },
     "title": "Home",
-    "description": "Welcome to our website."
+    "description": "Welcome to our website.",
+    "hero": {
+      "title": "Live the experience of a unique getaway in the Extremadura 'dehesa', amidst nature, comfort, and rural life."
+    }
   },
   "casa": {
     "meta": {
       "title": "The House - La Casa del Aire",
-      "description": "Discover La Casa del Aire: spacious areas, minimalist design and all the comforts for your stay."
+      "description": "Get to know La Casa del Aire: spacious areas, minimalist design, and all the amenities for your stay."
     },
     "title": "The House",
     "description": "Spacious areas and minimalist design for a perfect stay."
@@ -18,9 +21,20 @@
   "entorno": {
     "meta": {
       "title": "The Surroundings - La Casa del Aire",
-      "description": "Discover the natural surroundings of La Casa del Aire: meadows, trails and a unique landscape to disconnect."
+      "description": "Discover the natural surroundings of La Casa del Aire: 'dehesas', trails, and a unique landscape to disconnect."
     },
     "title": "The Surroundings",
     "description": "Explore the nature that surrounds our house."
+  },
+  "navbar": {
+    "logo": "Casa del Aire",
+    "reserve": "Book Now",
+    "menu": "Menu"
+  },
+  "footer": {
+    "rights": "La Casa del Aire. All rights reserved.",
+    "madeWith": "Made with",
+    "by": "by",
+    "language": "English (EN)"
   }
 }

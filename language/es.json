@@ -5,7 +5,10 @@
       "description": "Bienvenido a La Casa del Aire, un espacio rural único donde disfrutar de la tranquilidad y el entorno natural."
     },
     "title": "Inicio",
-    "description": "Bienvenido a nuestra web."
+    "description": "Bienvenido a nuestra web.",
+    "hero": {
+      "title": "Vive la experiencia de unos días únicos en la dehesa extremeña, entre la naturaleza, el confort y la vida rural."
+    }
   },
   "casa": {
     "meta": {
@@ -22,5 +25,16 @@
     },
     "title": "El Entorno",
     "description": "Explora la naturaleza que rodea nuestra casa."
+  },
+  "navbar": {
+    "logo": "Casa del Aire",
+    "reserve": "Reservar",
+    "menu": "Menú"
+  },
+  "footer": {
+    "rights": "La Casa del Aire. Todos los derechos reservados.",
+    "madeWith": "Hecho con",
+    "by": "por",
+    "language": "Español (ES)"
   }
 }
