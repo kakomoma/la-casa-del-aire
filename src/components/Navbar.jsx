@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { ReactComponent as Logo } from "../assets/icons/favicon-48.svg";
-import { ReactComponent as Menu } from "../assets/icons/iconMenu.svg";
+import { Link } from "react-router-dom";
+import { ReactComponent as Logo } from "../assets/icons/Logo.svg";
+import { ReactComponent as Menu } from "../assets/icons/Menu.svg";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -9,9 +10,9 @@ export default function Navbar() {
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        <a href="/" aria-label={t("navbar.logo")}>
-          <Logo className="icon logo-icon" />
-        </a>
+        <Link to="/casa" aria-label={t("navbar.logo")}>
+          <Logo className="logo-icon" />
+        </Link>
       </div>
 
       {/* Acciones */}

@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { ReactComponent as FacebookIcon } from "../assets/icons/iconFacebook.svg";
-import { ReactComponent as InstagramIcon } from "../assets/icons/iconInstagram.svg";
-import { ReactComponent as WhatsappIcon } from "../assets/icons/iconWhatsapp.svg";
-import { ReactComponent as MailIcon } from "../assets/icons/iconMail.svg";
+import { ReactComponent as FacebookIcon } from "../assets/icons/Facebook.svg";
+import { ReactComponent as InstagramIcon } from "../assets/icons/Instagram.svg";
+import { ReactComponent as WhatsappIcon } from "../assets/icons/Whatsapp.svg";
+import { ReactComponent as EmailIcon } from "../assets/icons/Email.svg";
 
 export default function Footer() {
   const { t } = useTranslation();
